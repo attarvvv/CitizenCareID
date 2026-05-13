@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs';
-import logService from '../services/logService';
+import logService from '../services/logService.js';
 
 const logController = {
   // GET /api/reports

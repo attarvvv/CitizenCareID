@@ -1,5 +1,5 @@
 import db     from '../config/db.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 const userService = {
   async getAll({ role, limit, offset }) {

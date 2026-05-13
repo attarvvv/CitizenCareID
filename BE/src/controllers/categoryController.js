@@ -1,4 +1,4 @@
-import categoryService from '../services/categoryService';
+import categoryService from '../services/categoryService.js';
 
 const categoryController = {
   async getAll(req, res) {

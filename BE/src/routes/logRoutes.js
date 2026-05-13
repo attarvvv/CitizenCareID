@@ -1,8 +1,8 @@
 import express       from 'express';
-import logController from '../controllers/logController';
-import verifyToken   from '../middleware/authMiddleware';
-import authorizeRole from '../middleware/rolesMiddleware';
-import upload        from '../middleware/multerMiddleware';
+import logController from '../controllers/logController.js';
+import verifyToken   from '../middlewares/authMiddleware.js';
+import authorizeRole from '../middlewares/rolesMiddleware.js';
+import upload        from '../middlewares/multerMiddleware.js';
 
 const router = express.Router();
 

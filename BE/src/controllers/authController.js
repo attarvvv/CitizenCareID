@@ -1,4 +1,4 @@
-import authService from '../services/authService';
+import authService from '../services/authService.js';
 
 const authController = {
   // POST /api/auth/register

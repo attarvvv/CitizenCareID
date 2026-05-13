@@ -1,7 +1,7 @@
 import express        from 'express';
-import userController from '../controllers/userController';
-import verifyToken    from '../middleware/authMiddleware';
-import authorizeRole  from '../middleware/rolesMiddleware';
+import userController from '../controllers/userController.js';
+import verifyToken    from '../middlewares/authMiddleware.js';
+import authorizeRole  from '../middlewares/rolesMiddleware.js';
 
 const router = express.Router();
 
